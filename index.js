@@ -1,6 +1,12 @@
+// NPM Modules
 const { app, BrowserWindow } = require('electron')
-const path = require('path')
+const autoUpdater = require("electron-updater")
+// My NPM Modules
 const playing = require('spotify-playing')
+
+// Node.js
+const path = require('path')
+
 
 function getGeniusLink(song) {
     // Given a song object {artist, song} return the genius lyrics webpage
@@ -26,7 +32,7 @@ function createWindow () {
         if (JSON.stringify(now) !== JSON.stringify(last)) {
             let geniusLink = getGeniusLink(now)
             console.log(now, geniusLink)
-            win.loadURL(geniusLink);
+            win.loadURL(geniusLink)
 
             // Set last to now
             last = now
@@ -42,6 +48,8 @@ app.whenReady().then(() => {
       createWindow()
     }
   })
+
+  autoUpdater.checkForUpdatesAndNotify()
 })
 
 app.on('window-all-closed', () => {
