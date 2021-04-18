@@ -4,8 +4,12 @@
   "description": "Shows lyric page on Genius of the song playing on Spotify",
   "main": "index.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Maxwell",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.4"
+  }
 }
