@@ -4,8 +4,7 @@
   "description": "Shows lyric page on Genius of the song playing on Spotify",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "author": "Michael Maxwell",
   "license": "ISC",
