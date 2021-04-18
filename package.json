@@ -1,0 +1,11 @@
+{
+  "name": "spotify-genius",
+  "version": "1.0.0",
+  "description": "Shows lyric page on Genius of the song playing on Spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Maxwell",
+  "license": "ISC"
+}
