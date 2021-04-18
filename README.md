@@ -1,5 +1,7 @@
 # Spotify Genius
 
+![Spotify Genius Logo](build/icon.png)
+
 Shows lyric page on Genius of the song playing on Spotify
 
 ## Releasing
@@ -16,3 +18,4 @@ TODO make a version bump npm script to do this for me :)
 
 set GH_TOKEN env var then
 `npm run release`
+https://docs.npmjs.com/cli/v7/commands/npm-version

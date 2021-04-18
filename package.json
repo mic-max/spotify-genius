@@ -1,6 +1,6 @@
 {
   "name": "spotify-genius",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shows lyric page on Genius of the song playing on Spotify",
   "main": "index.js",
   "scripts": {
