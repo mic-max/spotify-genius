@@ -1,8 +1,12 @@
 {
   "name": "spotify-genius",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Shows lyric page on Genius of the song playing on Spotify",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mic-max/spotify-genius.git"
+  },
   "scripts": {
     "start": "electron .",
     "postinstall": "electron-builder install-app-deps",
